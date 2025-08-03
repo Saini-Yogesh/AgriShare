@@ -1,0 +1,15 @@
+{
+  "name": "mern-app",
+  "private": true,
+  "scripts": {
+    "client": "cd frontend && nodemon dev",
+    "server": "cd backend && nodemon start",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
