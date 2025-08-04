@@ -42,7 +42,7 @@ ChartJS.register(
   Filler
 );
 
-const API_KEY = "84ebac995b3efbf3e1af2f0ba5ee0204";
+const API_KEY = import.meta.env.VITE_OPEN_WEATHER_MAP_API_KEY;
 const API_URL = "https://api.openweathermap.org/data/2.5";
 const SALES_API_URL = `${
   import.meta.env.VITE_BACKEND_BASE_URL

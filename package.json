@@ -2,9 +2,9 @@
   "name": "mern-app",
   "private": true,
   "scripts": {
-    "client": "cd frontend && nodemon dev",
-    "server": "cd backend && nodemon start",
-    "start": "concurrently \"npm run server\" \"npm run client\""
+    "frontend": "cd frontend && nodemon dev",
+    "backend": "cd backend && nodemon dev",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
   },
   "devDependencies": {
     "concurrently": "^8.0.0"
