@@ -2,8 +2,8 @@
   "name": "mern-app",
   "private": true,
   "scripts": {
-    "frontend": "cd frontend && nodemon dev",
-    "backend": "cd backend && nodemon dev",
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && npm run dev",
     "dev": "concurrently \"npm run frontend\" \"npm run backend\""
   },
   "devDependencies": {
