@@ -14,6 +14,10 @@ AgriShare is a modern Agriculture Management System that enables farmers to rent
 - **Multi-Language Support**: Available in Hindi, Marathi, and English.
 - **Secure Payments**: Integrated Razorpay for secure payment processing.
 
+## – System Flow
+
+![ProjectFlow](ProjectFlow.jpg)
+
 ---
 
 # Installation Guide
@@ -113,16 +117,17 @@ npm run frontend
 npm run dev
 ```
 
-
 ## Contributing
+
 Contributions are welcome! Please follow these steps:
+
 1. Fork the repository.
 2. Create a new branch.
 3. Make your changes.
 4. Submit a pull request.
 
 ## Contact
+
 For any queries, feel free to reach out:
+
 - **Email:** [yogesh.saini4002@gmail.com](mailto:yogesh.saini4002@gmail.com)
-
-
