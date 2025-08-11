@@ -50,6 +50,7 @@ Create a `.env` file inside the `frontend` folder and add the following:
 ```env
 VITE_BACKEND_BASE_URL=http://localhost:3000
 VITE_OPEN_WEATHER_MAP_API_KEY=your_openweather_api_key
+VITE_RAZORPAY_KEY_ID=your_RAZORPAY_KEY_ID
 VITE_FIREBASE_API_KEY=your_firebase_api_key
 VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
 VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
